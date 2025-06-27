@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36212.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoDoubtsWeb", "src\Front\NoDoubtsWeb\NoDoubtsWeb.csproj", "{5FD15DCB-0001-2820-E5FA-325135F09A35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoDoubts.AppHost", "Aspire\NoDoubts.AppHost\NoDoubts.AppHost.csproj", "{16ACCFD6-3583-4DCA-8687-0DE90DD5D629}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoDoubts.ServiceDefaults", "Aspire\NoDoubts.ServiceDefaults\NoDoubts.ServiceDefaults.csproj", "{6DED4DF1-425E-1040-0336-1CCBCE9059B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aspire", "Aspire", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8764A440-E380-4D35-97A2-D7F8EA0F678D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Front", "Front", "{EB9EA403-F419-4DD2-84D7-F4798459FFF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Back", "Back", "{CB80BA8C-3B52-49F4-9543-C752088A50CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoDoubtsAPI", "src\Back\NoDoubtsAPI\NoDoubtsAPI.csproj", "{B8FABFAF-FF1B-F025-86AB-2ADB8E29B7E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FD15DCB-0001-2820-E5FA-325135F09A35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FD15DCB-0001-2820-E5FA-325135F09A35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FD15DCB-0001-2820-E5FA-325135F09A35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FD15DCB-0001-2820-E5FA-325135F09A35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16ACCFD6-3583-4DCA-8687-0DE90DD5D629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16ACCFD6-3583-4DCA-8687-0DE90DD5D629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16ACCFD6-3583-4DCA-8687-0DE90DD5D629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16ACCFD6-3583-4DCA-8687-0DE90DD5D629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DED4DF1-425E-1040-0336-1CCBCE9059B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DED4DF1-425E-1040-0336-1CCBCE9059B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DED4DF1-425E-1040-0336-1CCBCE9059B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DED4DF1-425E-1040-0336-1CCBCE9059B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8FABFAF-FF1B-F025-86AB-2ADB8E29B7E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8FABFAF-FF1B-F025-86AB-2ADB8E29B7E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8FABFAF-FF1B-F025-86AB-2ADB8E29B7E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8FABFAF-FF1B-F025-86AB-2ADB8E29B7E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5FD15DCB-0001-2820-E5FA-325135F09A35} = {EB9EA403-F419-4DD2-84D7-F4798459FFF1}
+		{16ACCFD6-3583-4DCA-8687-0DE90DD5D629} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{6DED4DF1-425E-1040-0336-1CCBCE9059B2} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{EB9EA403-F419-4DD2-84D7-F4798459FFF1} = {8764A440-E380-4D35-97A2-D7F8EA0F678D}
+		{CB80BA8C-3B52-49F4-9543-C752088A50CC} = {8764A440-E380-4D35-97A2-D7F8EA0F678D}
+		{B8FABFAF-FF1B-F025-86AB-2ADB8E29B7E2} = {CB80BA8C-3B52-49F4-9543-C752088A50CC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74A5579E-4BBC-4AD7-A3E8-18D7A1B9C4C9}
+	EndGlobalSection
+EndGlobal
